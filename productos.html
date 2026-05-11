@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Productos</title>
+</head>
+
+<body id="body3">
+    <div id="barra2">
+        <h1>M O N A C O</h1>
+        <button onclick="volver()" type="button">VOLVER</button>
+    </div>
+    <h1 id="titulo4">PRODUCTOS</h1>
+    <div id="contenedor1">
+        <div id="productos1">
+            <img src="Imagenes/polvotexturizador.webp" id="img1">
+            <div>
+                <h2>POLVO TEXTURIZADOR</h2>
+                <p>deal para quienes buscan un look natural con mucha textura y sin brillo. Este polvo ligero levanta el
+                    cabello desde la raíz, proporcionando una fijación flexible y un acabado mate impecable que dura
+                    todo el día.</p>
+                <p id="precio">Precio/u $14500</p>
+                <button id="reservar2" type="button" onclick="procesoP()">RESERVAR</button>
+                <p class="numeroprod" id="npolvo">(0)</p>
+            </div>
+
+        </div>
+
+        <div id="productos1">
+            <img src="Imagenes/cera.webp" id="img1">
+            <div>
+                <h2>CERA PARA PEINAR</h2>
+                <p>Nuestra cera premium está diseñada para hombres que buscan orden y definición sin rigidez. Su fórmula
+                    permite remodelar el peinado en cualquier momento del día, aportando la estructura justa y un brillo
+                    sutil y saludable.</p>
+                <p id="precio">Precio/u $11800</p>
+                <button id="reservar2" type="button" onclick="procesoC()">RESERVAR</button>
+                <p class="numeroprod" id="ncera">(0)</p>
+
+            </div>
+
+
+        </div>
+
+        <div id="productos1">
+            <img src="Imagenes/spray.jpg" id="img1">
+            <div>
+                <h2>SRAY FIJADOR</h2>
+                <p>El toque final para los que no se detienen. Este spray de fijación fuerte asegura tu estilo contra el
+                    viento y la humedad de la ciudad sin acartonar el pelo. Secado rápido y fácil de remover con un
+                    simple lavado.</p>
+                <p id="precio"> Precio/u $13200</p>
+                <button id="reservar2" type="button" onclick="procesoS()">RESERVAR</button>
+                <p class="numeroprod" id="nspray">(0)</p>
+
+            </div>
+
+        </div>
+        <br>
+        <div id="carrito">
+            <div id="contenedor4">
+            <h2 id="titulo7">CARRITO DE RESERVAS</h2>
+            <p>POLVO TEXTURIZADOR </p>
+            <p id="npolvo1">(0)</p>
+            <p id="precio1">$0</p><br>
+            <p>CERA PARA PEINAR </p>
+            <p id="ncera1">(0)</p>
+            <p id="precio2">$0</p><br>
+            <p>SPRAY FIJADOR </p>
+            <p id="nspray1">(0)</p>
+            <p id="precio3">$0</p><br>
+            </div>
+            <br>
+            <h3>TOTAL A PAGAR: <p id="totalproductos">$0</p>
+            </h3>
+            <p id="info2">Todo lo que reserve a su cuenta debera abonarlo y retirarlo en su proxima visita a nuestro
+                local.</p>
+            <br><button id="botoncarrito" onclick="carrito()">CONFIRMAR CARRITO</button>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

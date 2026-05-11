@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Peluqueria</title>
+</head>
+
+<body id="body4">
+    <div id="barra2">
+        <h1>M O N A C O</h1>
+        <button onclick="volver()" type="button">VOLVER</button>
+    </div>
+    <h2 id="titulo6">RESERVA TU TURNO</h2>
+    <div id="contenedor2">
+        <div id="form1">
+            <h4 id="tipodereserva">
+                BARBA <input onclick="cortedepelo()" id="barba" name="corte" type="radio">
+                CORTE DE PELO <input onclick="cortedepelo()" id="pelo" name="corte" type="radio">
+                AMBOS <input onclick="cortedepelo()" id="ambos" name="corte" type="radio">
+            </h4>
+            <div id="contenedor3">
+
+                <p id="barbero">Barbero <select required>
+                        <option value="0"></option>
+                        <option>Claudio</option>
+                        <option>Martin</option>
+                        <option>Pedro</option>
+                        <option>No tengo preferencias</option>
+                    </select>
+                </p>
+
+
+                <p>Fecha <input type="date" value="2026-05-12" required></p>
+                <p>Hora <input type="time" value="17:00" required></p>
+                <p id="nota1">Horarios de atencion de martes a viernes (9am - 7pm)</p>
+
+            </div>
+            <div id="contenedor3">
+                <p id="sucursal">Sucursal <select required>
+                        <option value="0"></option>
+                        <option>Parana 356</option>
+                        <option>Rondeau 835</option>
+                    </select>
+                </p>
+                <p>Servicio <select id="calidad" onclick="cortedepelo()" required>
+                        <option value="0"></option>
+                        <option value="1">Basico</option>
+                        <option value="2">Completo</option>
+                    </select>
+                </p>
+                <div id="totales">
+                    <p id="total">Total a pagar =
+                    <p id="totaljs"> </p>
+                    </p>
+                </div>
+
+            </div>
+
+            <button id="reservar" onclick="reservar()" type="button">Reservar</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
