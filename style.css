@@ -1,11 +1,12 @@
 #body1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* text-align: center; */
-    height: 650px;
     width: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: left;
     margin: 0px;
+    display: flex;
 
 }
 
@@ -24,9 +25,7 @@
 
 #fondo1 {
     background-image: url(Imagenes/fondo1.png);
-    background-size: cover;
-    background-size: 770px;
-    height: 665px;
+    background-size: 100%;
     width: 60%;
     align-items: right;
 
@@ -36,7 +35,6 @@
     color: rgb(232, 233, 233);
     font-size: 25px;
     padding-top: 100px;
-    height: 565px;
     width: 40%;
     text-align: center;
     background-color: rgb(22, 24, 24);
@@ -274,6 +272,7 @@ a {
     border-color: rgba(232, 233, 233, 0.148);
     border-radius: 8px;
     background-color: rgb(30, 32, 32);
+    padding: 1%;
 
 
 }
@@ -376,7 +375,7 @@ a {
 #body4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(Imagenes/fondo4.png);
-    background-size: 1500px;
+    background-size: 110%;
     color: rgb(232, 233, 233);
     padding: 0px;
     margin: 0px;
@@ -394,12 +393,12 @@ a {
     font-size: 20px;
     text-align: left;
     display: inline-block;
-    height: 400px;
     width: 90%;
     border: solid 0 1px;
     border-color: rgba(232, 233, 233, 0.148);
     border-radius: 8px;
     background-color: rgb(30, 32, 32);
+    padding-bottom: 15px;
 }
 
 #nota1 {
@@ -446,19 +445,21 @@ a {
 
 #reservar {
     margin-top: 10px;
-    margin-left: 68px;
+    width: 90%;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 11px;
-    padding-inline: 40%;
     color: rgb(232, 233, 233);
     background-color: rgba(22, 24, 24, 0.468);
     border-color: rgba(232, 233, 233, 0.148);
     border: solid 0 1px;
     border-radius: 4px;
 
+}
+#reservarcaja{
+    text-align: center;
 }
 
 #form1 p {
@@ -497,3 +498,14 @@ a {
     margin-top: 0px;
     width: 500px;
 }
+
+
+
+
+
+
+
+
+
+
+
