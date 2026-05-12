@@ -54,6 +54,10 @@
     font-size: 16px;
 
 }
+#input1 p i{
+    margin-right: 10px;
+    font-size: 20px;
+}
 
 #botones1 {
     margin-top: 55px;
@@ -177,13 +181,22 @@
     color: rgb(232, 233, 233);
     background-color: rgb(30, 32, 32);
     border-top: 1px solid rgba(232, 233, 233, 0.148);
+}
 
-
+#redes ul li{
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
     color: rgb(145, 169, 205);
+}
+
+#redes i {
+    color: rgb(232, 233, 233);
+    font-size: 22px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 #cerrarsesion{
@@ -247,6 +260,9 @@ a {
     border-radius: 4px;
 
 
+}
+#barra2 button i{
+    padding-right: 5px;
 }
 
 #contenedor1 {
@@ -334,6 +350,10 @@ a {
 }
 #carrito h3{
     margin-bottom: 0px;
+}
+
+#contenedor4 h2 i{
+    margin-left: 20px;
 }
 
 #info2 {
